@@ -23,4 +23,5 @@ public class TestConnexionFirefox {
         driver.get("https://www.google.fr");
     }
 //comment
+    //autre commentaire
 }
