@@ -46,7 +46,7 @@ public class TestAccederPim {
         System.out.println("L'élément 'Add Employee' est cliquable : "+addEmployeeEnabled);
 
     }
-
+//comment
     @AfterClass
     public void TearDown() {
         //Fermeture du navigateur
