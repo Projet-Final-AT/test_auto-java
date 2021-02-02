@@ -44,7 +44,6 @@ public class TestAccederPim {
         System.out.println("L'élément 'Add Employee' est présent : "+addEmployeePresence);
         boolean addEmployeeEnabled = elementAddEmployee.isEnabled();
         System.out.println("L'élément 'Add Employee' est cliquable : "+addEmployeeEnabled);
-
     }
 
     @AfterClass
