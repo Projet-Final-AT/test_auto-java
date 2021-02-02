@@ -33,6 +33,7 @@ public class TestRechercherSalarie {
 
     @Test
     public void RechercherSalarie() {
+
         //Accès à la liste d'employés
         WebElement elementEmployeeList = driver.findElementById("menu_pim_viewEmployeeList");
         elementEmployeeList.click();

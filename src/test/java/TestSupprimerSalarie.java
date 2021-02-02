@@ -16,6 +16,7 @@ public class TestSupprimerSalarie {
 
     private FirefoxDriver driver;
 
+    
     @BeforeClass
     public void setUp() {
         String s = System.setProperty("webdriver.gecko.driver", "C:\\drivers\\geckodriver.exe");
