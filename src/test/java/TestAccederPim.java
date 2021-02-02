@@ -8,7 +8,6 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
 public class TestAccederPim {
-
     private FirefoxDriver driver;
 
     @BeforeClass
