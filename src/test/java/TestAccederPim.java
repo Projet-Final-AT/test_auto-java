@@ -34,16 +34,16 @@ public class TestAccederPim {
         //Vérification que l'élément "Employee List" est présent et cliquable
         WebElement elementEmployeeList = driver.findElementById("menu_pim_viewEmployeeList");
         boolean employeeListPresence = elementEmployeeList.isDisplayed();
-        boolean employeeListEnabled = elementEmployeeList.isEnabled();
         System.out.println("L'élément 'Employee List' est présent.");
+        boolean employeeListEnabled = elementEmployeeList.isEnabled();
         System.out.println("L'élément 'Employee List' est cliquable.");
 
         //Vérification que l'élément "Add Employee" est présent et cliquable
         WebElement elementAddEmployee = driver.findElementById("menu_pim_addEmployee");
         boolean addEmployeePresence = elementAddEmployee.isDisplayed();
+        System.out.println("L'élément 'Add Employee' est présent : "+addEmployeePresence);
         boolean addEmployeeEnabled = elementAddEmployee.isEnabled();
-        System.out.println("L'élément 'Add Employee' est présent.");
-        System.out.println("L'élément 'Add Employee' est cliquable.");
+        System.out.println("L'élément 'Add Employee' est cliquable : "+addEmployeeEnabled);
 
     }
 
